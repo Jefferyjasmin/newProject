@@ -1,0 +1,14 @@
+.profile_contact_info {
+  display: flex;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-top: 6%;
+  margin-right: auto;
+}
+.profile_title {
+  margin-left: 64px;
+}

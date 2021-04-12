@@ -1,0 +1,39 @@
+.widgets {
+  flex: 0.3;
+  margin-top: 20px;
+  margin-left: 11px;
+}
+.widgets_inputField {
+  border: none !important;
+  appearance: none !important;
+  padding-left: 40px;
+}
+.widgets_input {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--twitter-background);
+  padding: 6px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.widgets_input > input {
+  border: none;
+  background-color: var(--twitter-background);
+}
+
+.widgets_searchIcon {
+  color: gray;
+}
+.widgets_Container {
+  margin-top: 15px;
+  margin-left: 20px;
+  background-color: #f5f8fa;
+  border-radius: 20px;
+}
+
+.widgets_Container > h2 {
+  font-size: 18px;
+  font-weight: 800;
+}
